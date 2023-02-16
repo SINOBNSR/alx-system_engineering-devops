@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Something about size 
+ * main - A little Something about size 
  * Return 0 (Success)
  */
 int main(void)
