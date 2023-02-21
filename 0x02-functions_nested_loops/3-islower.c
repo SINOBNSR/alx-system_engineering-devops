@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
  * _islower - Entry point
  * Description: checks if a character is lowercase
