@@ -11,7 +11,7 @@ void print_alphabet(void)
 
 	while (lowcaseletter <= 'z')
 	{
-		_putchar(lowcaseltter);
+		_putchar(lowcaseletter);
 		lowcaseletter++;
 	}
 	_putchar('\n');
