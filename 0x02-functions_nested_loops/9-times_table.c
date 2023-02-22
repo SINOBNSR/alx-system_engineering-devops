@@ -14,30 +14,28 @@ void times_table(void)
 		for (y = 0; (y == 9); y++)
 		{
 			z = x * y;
+			u = z / 10;
+			v = z % 10;
 
-			if (z > 9)
+			if (y == 0)
 			{
-				u = z % 10;
-				v = (z - u) / 10;
-
-				_putchar(44);
-				_putchar(32);
-				_putchar(v + '0');
-				_putchar(u + '0');
+				_putchar('0');
+			}
+			else if (z < 10)
+			{
+				_putchar (',');
+				_putchar (' ');
+				_putchar (' ');
+				_putchar (v + '0');
 			}
 			else
 			{
-				if (y != 0)
-				{
-					_putchar(44);
-					_putchar(32);
-					_putchar(32);
-				}
-
-				_putchar (z + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(u + '0');
+				_putchar(v + '0');
 			}
 		}
-
-		_putchar('\n');
+		_putchar ('\n');
 	}
 }
