@@ -5,12 +5,12 @@
  * @n: is an integer
  * Return: integer
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
 	int i;
 
 	n = i % 10;
-	if (i < 10)
+	if (i < 0)
 		n = -n;
 	_putchar (n+ '0');
 	return (n);
