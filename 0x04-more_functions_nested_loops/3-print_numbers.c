@@ -4,10 +4,10 @@
  * print_numbers - prints numbers
  * Return: void
  */
-void print_numbers (void)
+void print_numbers(void)
 {
 	int i;
-	
+
 	for (i = 0, < 10; i++)
 		_putchar(i + '0');
 	_putchar('\n');
