@@ -13,9 +13,9 @@ int main(void)
 	long int a = 612852475143;
 	long int b;
 
-	for (b = 2; b < a; i++)
+	for (b = 2; b < a; b++)
 	{
-		while (a % i == 0)
+		while (a % b == 0)
 			a /= b;
 	}
 
